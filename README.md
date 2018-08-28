@@ -68,8 +68,9 @@ Output: Deletes the socket for that user
 Input: ```reply “message”```
 Output: Send a message in the chatroom as Username: <message>
 
-Input: ```reply <filename> <tcp/udp>```
+Input: ```reply <username>/<filename> <tcp/udp>```
 Output: Send file to all the users in the current chatroom
+Example: ```reply me/f2.png tcp```
 
 Error Handling:
 • Maximum number of users on Server reached.
